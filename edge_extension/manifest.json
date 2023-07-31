@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Snapchat Code Block Highlighter",
+  "version": "1.0",
+  "description": "An Edge extension that replaces text within ``` ``` in Snapchat messages to code blocks with syntax highlighting.",
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.snapchat.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css", "highlight.css"]
+    }
+  ],
+  "options_page": "options.html",
+  "web_accessible_resources": ["highlight.pack.js"]
+}
