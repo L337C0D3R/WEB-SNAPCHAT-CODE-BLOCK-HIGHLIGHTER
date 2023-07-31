@@ -1,0 +1,79 @@
+.code-block {
+    display: block;
+    padding: 16px;
+    margin: 16px 0;
+    overflow: auto;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #998;
+    font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name {
+    color: #333;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+    color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+    color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+    color: #900;
+}
+
+.hljs-subst {
+    color: #444;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+    color: #458;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+    color: #000080;
+}
+
+.hljs-link {
+    color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+    color: #990073;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
